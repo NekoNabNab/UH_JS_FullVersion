@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Soal No.5 -->
+    <script>
+        var kembali
+        var bakso       = (10000)
+        var mie_ayam    = (8000)
+        var rawon       = (12000)
+        var nasi_pecel  = (7000)
+        var kupang      = (13000)
+
+        var uang = prompt("Masukkan Jumlah Uang Anda")
+        if(uang ){
+            var nilai = prompt("Masukkan Nama Makanan")
+            if (nilai==('bakso')){
+                kembali = uang - bakso
+                if (uang<bakso){
+                    alert('Maaf uang anda tidak cukup')
+                }
+                else if (uang>bakso){
+                    document.write('Jumlah uang anda    = '+uang+"</p>")
+                    document.write('Harga Makanan       = '+bakso+"</p>")
+                    document.write('Kembalian anda      = '+kembali)
+                }
+            }
+            else if (nilai==('mie ayam')){
+                kembali = uang - mie_ayam           
+                if (uang<mie_ayam){
+                    alert('Maaf uang anda tidak cukup')
+                }
+                else if (uang>mie_ayam){
+                    document.write('Jumlah uang anda    = '+uang+"</p>")
+                    document.write('Harga Makanan       = '+mie_ayam+"</p>")
+                    document.write('Kembalian anda      = '+kembali)
+                }
+            }
+            else if (nilai==('rawon')){
+                kembali = uang - rawon
+                if (uang<rawon){
+                    alert('Maaf uang anda tidak cukup')
+                }
+                else if (uang>rawon){
+                    document.write('Jumlah uang anda    = '+uang+"</p>")
+                    document.write('Harga Makanan       = '+rawon+"</p>")
+                    document.write('Kembalian anda      = '+kembali)
+                }
+            }
+            else if (nilai==('nasi pecel')){
+                kembali = uang - nasi_pecel
+                if (uang<nasi_pecel){
+                    alert('Maaf uang anda tidak cukup')
+                }
+                else if (uang>nasi_pecel){
+                    document.write('Jumlah uang anda    = '+uang+"</p>")
+                    document.write('Harga Makanan       = '+nasi_pecel+"</p>")
+                    document.write('Kembalian anda      = '+kembali)
+                }
+            }
+            else if (nilai==('kupang')){
+                kembali = uang - kupang
+                if (uang<kupang){
+                    alert('Maaf uang anda tidak cukup')
+                }
+                else if (uang>kupang){
+                    document.write('Jumlah uang anda    = '+uang+"</p>")
+                    document.write('Harga Makanan       = '+kupang+"</p>")
+                    document.write('Kembalian anda      = '+kembali)
+                }
+            }
+            else{
+                alert('maaf, menu tidak terdaftar'+"</p>")
+                document.write('Jumlah uang anda    = '+uang)
+            }
+        }
+
+        
+    </script>
+    <!-- ------------------------------------------------------------------------------------------------ -->
+
+</body>
+</html>
